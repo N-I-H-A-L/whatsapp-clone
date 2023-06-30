@@ -1,0 +1,28 @@
+.sidebarchat-div{
+    display: flex;
+    padding: 10px;
+    padding-left: 20px;
+    align-items: center;
+
+    &:hover{
+        background-color: #ebebeb;
+    }
+}
+
+.sidebarchat-chat{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.sidebarchat-content{
+    margin-left: 15px;
+}
+
+.sidebarchat-name{
+    font-size: 18px;
+}
+
+.sidebarchat-message{
+    font-size: 14px;
+}
